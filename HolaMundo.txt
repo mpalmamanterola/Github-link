@@ -8,4 +8,8 @@ Que tal?
 Quisiera Borrar esto
 
 Agreguemos otra linea para hacerlo mas interesante
+<<<<<<< HEAD
 Nuevamente estamos aqui para editar.
+=======
+Nuevamente estamos aqui para editar 
+>>>>>>> 862a2466078f2cfed555c9af54ae021e034f9ced
