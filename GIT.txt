@@ -1,0 +1,503 @@
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   MatiasPalma-ima602.ipynb
+
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git diff HolaMundo.txt
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   MatiasPalma-ima602.ipynb
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HolaMundo.txt
+
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git diff
+diff --git a/HolaMundo.txt b/HolaMundo.txt
+index bedcb16..5152ee8 100644
+--- a/HolaMundo.txt
++++ b/HolaMundo.txt
+@@ -2,4 +2,6 @@ Hola Mundo.
+
+
+
+-Que tal?
+\ No newline at end of file
++Que tal?
++
++=D
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git diff HolaMundo.txt
+diff --git a/HolaMundo.txt b/HolaMundo.txt
+index bedcb16..5152ee8 100644
+--- a/HolaMundo.txt
++++ b/HolaMundo.txt
+@@ -2,4 +2,6 @@ Hola Mundo.
+
+
+
+-Que tal?
+\ No newline at end of file
++Que tal?
++
++=D
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git add HolaMundo.txt
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   HolaMundo.txt
+        new file:   MatiasPalma-ima602.ipynb
+
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git diff HolaMundo.txt
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git diff
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>status
+"status" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   HolaMundo.txt
+        new file:   MatiasPalma-ima602.ipynb
+
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git checkout -- HolaMundo.txt
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>status
+"status" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   HolaMundo.txt
+        new file:   MatiasPalma-ima602.ipynb
+
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git log
+commit 51b6470d1079730b76e2f75c80d4e3440c49d8a7 (HEAD -> master)
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:33:50 2021 -0300
+
+    Hola Mundo
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git diff
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git diff
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git diff HolaMundo.txt
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   HolaMundo.txt
+        new file:   MatiasPalma-ima602.ipynb
+
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git diff
+diff --git a/HolaMundo.txt b/HolaMundo.txt
+index 5152ee8..e6bfffc 100644
+--- a/HolaMundo.txt
++++ b/HolaMundo.txt
+@@ -5,3 +5,4 @@ Hola Mundo.
+ Que tal?
+
+ =D
++Quisiera Borrar esto
+\ No newline at end of file
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   HolaMundo.txt
+        new file:   MatiasPalma-ima602.ipynb
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HolaMundo.txt
+
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git diff
+diff --git a/HolaMundo.txt b/HolaMundo.txt
+index 5152ee8..e6bfffc 100644
+--- a/HolaMundo.txt
++++ b/HolaMundo.txt
+@@ -5,3 +5,4 @@ Hola Mundo.
+ Que tal?
+
+ =D
++Quisiera Borrar esto
+\ No newline at end of file
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git log
+commit 51b6470d1079730b76e2f75c80d4e3440c49d8a7 (HEAD -> master)
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:33:50 2021 -0300
+
+    Hola Mundo
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git diff
+diff --git a/HolaMundo.txt b/HolaMundo.txt
+index 5152ee8..e6bfffc 100644
+--- a/HolaMundo.txt
++++ b/HolaMundo.txt
+@@ -5,3 +5,4 @@ Hola Mundo.
+Ahora HolaMundo tiene una línea extra
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#       modified:   HolaMundo.txt
+#       new file:   MatiasPalma-ima602.ipynb
+#
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       <ownloads/Herramientas basicas para Data Analisis/git-prueba/.git/COMMIT_EDITMSG[+] [unix] (20:45 13/12/2021)1,38-37 All<6/Downloads/Herramientas basicas para Data Analisis/git-prueba/.git/COMMIT_EDITMSG" [unix] 9L, 291B written
+[master 2e89417] Ahora HolaMundo tiene una línea extra
+ 2 files changed, 1161 insertions(+), 1 deletion(-)
+ create mode 100644 MatiasPalma-ima602.ipynb
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>status
+"status" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git log
+commit 2e8941726e0ead0b5e285e3cc8e5ca3f844dc41d (HEAD -> master)
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:45:04 2021 -0300
+
+    Ahora HolaMundo tiene una línea extra
+
+commit 51b6470d1079730b76e2f75c80d4e3440c49d8a7
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:33:50 2021 -0300
+
+    Hola Mundo
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HolaMundo.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git diff
+diff --git a/HolaMundo.txt b/HolaMundo.txt
+index e6bfffc..5100714 100644
+--- a/HolaMundo.txt
++++ b/HolaMundo.txt
+@@ -5,4 +5,9 @@ Hola Mundo.
+ Que tal?
+
+ =D
+-Quisiera Borrar esto
+\ No newline at end of file
++Quisiera Borrar esto
++
++
++Ahora agrego más lineas de texto
++entonces deberían aparecer
++3 líneas extras
+\ No newline at end of file
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HolaMundo.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git checkout HolaMundo.txt
+Updated 1 path from the index
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>status
+"status" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git log
+commit 2e8941726e0ead0b5e285e3cc8e5ca3f844dc41d (HEAD -> master)
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:45:04 2021 -0300
+
+    Ahora HolaMundo tiene una línea extra
+
+commit 51b6470d1079730b76e2f75c80d4e3440c49d8a7
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:33:50 2021 -0300
+
+    Hola Mundo
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git HolaMundo.txt
+git: 'HolaMundo.txt' is not a git command. See 'git --help'.
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git diff
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git checkout 51b6470
+Note: switching to '51b6470'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 51b6470 Hola Mundo
+Una línea más que agregamos por los memes
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# HEAD detached at 2e89417
+# Changes to be committed:
+#       modified:   HolaMundo.txt
+#
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       <ownloads/Herramientas basicas para Data Analisis/git-prueba/.git/COMMIT_EDITMSG[+] [unix] (20:53 13/12/2021)1,43-41 All<6/Downloads/Herramientas basicas para Data Analisis/git-prueba/.git/COMMIT_EDITMSG" [unix] 8L, 265B written
+[detached HEAD 11f026f] Una línea más que agregamos por los memes
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git log
+commit 11f026f7c755f2feec542b5a35d439fbf094221a (HEAD)
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:53:50 2021 -0300
+
+    Una línea más que agregamos por los memes
+
+commit 2e8941726e0ead0b5e285e3cc8e5ca3f844dc41d (master)
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:45:04 2021 -0300
+
+    Ahora HolaMundo tiene una línea extra
+
+commit 51b6470d1079730b76e2f75c80d4e3440c49d8a7
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:33:50 2021 -0300
+
+    Hola Mundo
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git status
+HEAD detached from 2e89417
+nothing to commit, working tree clean
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git chackout 51b6470d
+git: 'chackout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git checkout 51b6470d
+Warning: you are leaving 1 commit behind, not connected to
+any of your branches:
+
+  11f026f Una línea más que agregamos por los memes
+
+If you want to keep it by creating a new branch, this may be a good time
+to do so with:
+
+ git branch <new-branch-name> 11f026f
+
+HEAD is now at 51b6470 Hola Mundo
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git checkout 11f026f7
+Previous HEAD position was 51b6470 Hola Mundo
+HEAD is now at 11f026f Una línea más que agregamos por los memes
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git branch respaldo
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git checkout respaldo
+Switched to branch 'respaldo'
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git bracnh
+git: 'bracnh' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git bracnh
+git: 'bracnh' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git branch
+  master
+* respaldo
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git status
+On branch respaldo
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HolaMundo.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        avemaria.txt.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git add .
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git status
+On branch respaldo
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   HolaMundo.txt
+        new file:   avemaria.txt.txt
+
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git commit -m 'He creado un nuevo archvo y editado HolaMundo'
+error: pathspec 'creado' did not match any file(s) known to git
+error: pathspec 'un' did not match any file(s) known to git
+error: pathspec 'nuevo' did not match any file(s) known to git
+error: pathspec 'archvo' did not match any file(s) known to git
+error: pathspec 'y' did not match any file(s) known to git
+error: pathspec 'editado' did not match any file(s) known to git
+error: pathspec 'HolaMundo'' did not match any file(s) known to git
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git commit -m "He creado un nuevo archvo y editado HolaMundo"
+[respaldo 163b39c] He creado un nuevo archvo y editado HolaMundo
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 avemaria.txt.txt
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git log
+commit 163b39c8935c9a0ac85f2718153e21b996ad13fb (HEAD -> respaldo)
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 21:07:33 2021 -0300
+
+    He creado un nuevo archvo y editado HolaMundo
+
+commit 11f026f7c755f2feec542b5a35d439fbf094221a
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:53:50 2021 -0300
+
+    Una línea más que agregamos por los memes
+
+commit 2e8941726e0ead0b5e285e3cc8e5ca3f844dc41d (master)
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:45:04 2021 -0300
+
+    Ahora HolaMundo tiene una línea extra
+
+commit 51b6470d1079730b76e2f75c80d4e3440c49d8a7
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:33:50 2021 -0300
+
+    Hola Mundo
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git checkout master
+Switched to branch 'master'
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git checkout respaldo
+Switched to branch 'respaldo'
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git log
+commit 163b39c8935c9a0ac85f2718153e21b996ad13fb (HEAD -> respaldo)
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 21:07:33 2021 -0300
+
+    He creado un nuevo archvo y editado HolaMundo
+
+commit 11f026f7c755f2feec542b5a35d439fbf094221a
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:53:50 2021 -0300
+
+    Una línea más que agregamos por los memes
+
+commit 2e8941726e0ead0b5e285e3cc8e5ca3f844dc41d (master)
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:45:04 2021 -0300
+
+    Ahora HolaMundo tiene una línea extra
+
+commit 51b6470d1079730b76e2f75c80d4e3440c49d8a7
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:33:50 2021 -0300
+
+    Hola Mundo
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git checkout master
+Switched to branch 'master'
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git log
+commit 2e8941726e0ead0b5e285e3cc8e5ca3f844dc41d (HEAD -> master)
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:45:04 2021 -0300
+
+    Ahora HolaMundo tiene una línea extra
+
+commit 51b6470d1079730b76e2f75c80d4e3440c49d8a7
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:33:50 2021 -0300
+
+    Hola Mundo
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git checkout master
+Already on 'master'
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git checkout respaldo
+Switched to branch 'respaldo'
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>git log
+commit 163b39c8935c9a0ac85f2718153e21b996ad13fb (HEAD -> respaldo)
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 21:07:33 2021 -0300
+
+    He creado un nuevo archvo y editado HolaMundo
+
+commit 11f026f7c755f2feec542b5a35d439fbf094221a
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:53:50 2021 -0300
+
+    Una línea más que agregamos por los memes
+
+commit 2e8941726e0ead0b5e285e3cc8e5ca3f844dc41d (master)
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:45:04 2021 -0300
+
+    Ahora HolaMundo tiene una línea extra
+
+commit 51b6470d1079730b76e2f75c80d4e3440c49d8a7
+Author: Matías <m.palma14@ufromail.cl>
+Date:   Mon Dec 13 20:33:50 2021 -0300
+
+    Hola Mundo
+
+C:\Users\56936\Downloads\Herramientas basicas para Data Analisis\git-prueba>
